@@ -1,5 +1,3 @@
-<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
-
 # Project Summary
 
 Practice using git + Github
@@ -8,9 +6,9 @@ This project will consist of three separate mini-projects to get you comfortable
 
 In the first mini-project, you'll be mimicking the steps you'll take when you first start your personal project. Creating a repository, linking it to your computer, then pushing those changes up to your GitHub.
 
-In the second mini-project, you'll be mimicking the steps you'll take with nearly every DevMountain project you do. You'll 'fork' the DevMountain repository, link your computer with your fork, then push those changes up to your GitHub.
+In the second mini-project, you'll be mimicking the steps you'll take with nearly every project you do. You'll 'fork' the repository, link your computer with your fork, then push those changes up to your GitHub.
 
-Finally, in the last mini-project you'll be mimicking the steps you'll take during the group project portion. You'll fork your group's repo, link your computer with your fork, push changes to your GitHub, then make a 'Pull Request' into your group's repo.
+Finally, in the last mini-project you'll be mimicking the steps you'll take during the group project in real work environment. You'll fork your group's repo, link your computer with your fork, push changes to your GitHub, then make a 'Pull Request' into your group's repo.
 
 ## Mini-Project 1: Personal Project
 
@@ -127,7 +125,7 @@ In this step, we will push code to GitHub.
     </details>
 * Go to your repository on GitHub and see your updates.
 
-## Mini-Project 2: DevMountain Project
+## Mini-Project 2: Learn-Git Project
 
 ## Step 1
 
@@ -145,7 +143,7 @@ In this step, we will fork this tutorial repository.
 
     <br />
 
-    This will essentially copy all of the code from this repository, but make it as a new repository under your account. As you can imagine, you can't push directly to the DevMountain repo, because that would not be secure for DevMountain (anyone could make any changes they want). What you should do is create a fork of this repo, then push to your own fork because it's under your own account.
+    This will essentially copy all of the code from this repository, but make it as a new repository under your account. As you can imagine, you can't push directly to the MigraCode repo, because that would not be secure for MigraCode (anyone could make any changes they want). What you should do is create a fork of this repo, then push to your own fork because it's under your own account.
 
     </details>
 
@@ -212,7 +210,7 @@ Here is where things start to get different. Let's imagine we're working in grou
 * Locate the green button that says `New pull request` and click it.
   * You should now see the file changes you've made and how they differ from the original repo.
 * Click on the `Create pull request` button to submit your PR.
-* Now if you navigate to the <a href="https://github.com/DevMountain/learn-git/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
+* Now if you navigate to the <a href="https://github.com/Migracode-Barcelona/learn-git/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
 
 ## Contributions
 
@@ -220,8 +218,4 @@ If you see a problem or a typo, please fork, make the necessary changes, and cre
 
 ## Copyright
 
-© DevMountain LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
-
-<p align="center">
-<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250">
-</p>
+© DevMountain LLC, 2017.
