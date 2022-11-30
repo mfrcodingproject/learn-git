@@ -2,7 +2,7 @@
 
 Practice using git + Github
 
-This project will consist of three separate mini-projects to get you comfortable with the kinds of activities you'll be using git for throughout the class. 
+This project will consist of four separate mini-projects to get you comfortable with the kinds of activities you'll be using git for throughout the class. 
 
 In the first mini-project, you'll be mimicking the steps you'll take when you first start your personal project. Creating a repository, linking it to your computer, then pushing those changes up to your GitHub.
 
@@ -210,7 +210,72 @@ Here is where things start to get different. Let's imagine we're working in grou
 * Locate the green button that says `New pull request` and click it.
   * You should now see the file changes you've made and how they differ from the original repo.
 * Click on the `Create pull request` button to submit your PR.
-* Now if you navigate to the <a href="https://github.com/Migracode-Barcelona/learn-git/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
+* Now if you navigate to the <a href="https://github.com/mfrcodingproject/learn-git/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
+
+## Contributions
+
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+
+
+## Mini-Project 4: Group Project. Create your own repo
+
+In teams of 3 people we are going to learn to work as a team with GitHub to:
+
+* Push changes to a project
+* Make pull requests
+* Upgrade fork
+* Reject PR and comment changes
+* Solve conflicts
+
+## Step 1
+
+### Summary
+
+To exercise the use of Git and GitHub as a team, the group must carry out a simple project that will consist of an small description in the `README.md` file.
+
+### Instructions
+
+* A member of the group (Owner) must create a repository on Github. It will create the README.md in the `main` branch. 
+* The Owner will create the `develop` branch in his repo, on which the changes will be received. **We won't touch `main` branch until the end.**
+
+
+## Step 2
+
+### Summary
+The others member of the group will fork the repository and will make some changes working with branches. After finishing the changes, we will open a `Pull Request` to the Owner.
+
+### Instructions
+
+* Each member will clone their Fork locally. 
+* Once the tasks that each team member will perform are defined, they should move to the `develop` branch and release a `new` branch. Branches should have **the name of the feature** being worked on.
+* Each member will work on their branch and will push the `commits` to their corresponding fork. (*commits can be done locally as many times as necessary and then upload all the changes at once to the remote repository*).
+* After making the changes, the new branch will be pushed to the GitHub fork repository. Then, make a `Pull Request` to the original repo of the new branch to `develop` from the original repo. `new_branch(fork) -> develop(owner)`. (remember don't touch `main`)
+
+## Step 3
+
+### Summary
+The Owner approves `Pull Request`
+
+### Instructions
+* The Owner of the repo *will review the code of the partners and leave comments* if they consider them necessary. 
+* If there are **conflicts** in any **`Pull Request`**, you should resolve them together to make sure your code keeps working. 
+* When everything is ready and checked, the updates will be merged into `develop`.
+
+## Step 4
+
+### Summary
+The other members clean branches and updates their forked repos
+
+### Instructions
+* When work on an individual branch is complete and it has been successfully merged into `develop`, the individual branch should be deleted from both the local repository and the fork repository on GitHub.
+
+* Other members have to update their forks, since the original repo has changed, both `local` and `remote`.
+
+
+## Step 5
+
+### Summary
+Final step. The project is finished and it's time to upgrade `main` branch with the final result. The owner will merge `develop` --> `main`.
 
 ## Contributions
 
